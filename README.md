@@ -3,12 +3,14 @@ Simple command line file parser for hentai nukes utilizing [hentai-chan's wrappe
 
 It sorts and filters nuke codes from either a file or string making an output file containing `url : title` of nukes
 with the option to download the images of all the nukes. 
-PS: Incorrect nukes are filtered out
+PS: Incorrect nukes are filtered out.
 
+run in directory to install packages:
+`pipenv install` or `pip install requirements.txt`
 ```
 usage: nuke.py [-h] [-f FILE | -s STRING [STRING ...]] [-o [OUT]] [-d]
 py nuke.py -f nukes.txt
-py nuke_name.py -s 177013 21031 3450000 -d
+py nuke.py -s 177013 21031 3450000 -o somefile.txt -d
 
 
 optional arguments:
