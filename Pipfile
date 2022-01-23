@@ -1,0 +1,13 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+hentai = "==3.2.9"
+nhentai = "==0.4.16"
+
+[dev-packages]
+
+[requires]
+python_version = "3.9"

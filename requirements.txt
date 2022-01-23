@@ -1,0 +1,2 @@
+hentai==3.2.9
+nhentai==0.4.16
